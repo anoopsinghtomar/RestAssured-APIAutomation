@@ -1,0 +1,25 @@
+test-output/
+target/
+
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+box-aspnet-mvc-skeleton-app/[Bb]in/
+[Oo]bj/
