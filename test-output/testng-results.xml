@@ -1,17 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-24T19:12:20 IST" name="Default suite" finished-at="2024-12-24T19:12:20 IST" duration-ms="63">
+  <suite started-at="2024-12-30T20:23:47 IST" name="PetStore Suite" finished-at="2024-12-30T20:24:18 IST" duration-ms="30371">
     <groups>
     </groups>
-    <test started-at="2024-12-24T19:12:20 IST" name="Default test" finished-at="2024-12-24T19:12:20 IST" duration-ms="63">
-      <class name="apiTest">
-        <test-method signature="testfirst()[pri:0, instance:apiTest@6d763516]" started-at="2024-12-24T19:12:20 IST" name="testfirst" finished-at="2024-12-24T19:12:20 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-12-30T20:23:47 IST" name="API Automation Test" finished-at="2024-12-30T20:24:18 IST" duration-ms="30371">
+      <class name="tests.UserTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:tests.UserTest@78691363]" started-at="2024-12-30T20:23:48 IST" name="setupData" finished-at="2024-12-30T20:23:51 IST" duration-ms="3120" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testfirst -->
-      </class> <!-- apiTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setupData -->
+        <test-method signature="createuser()[pri:1, instance:tests.UserTest@78691363]" started-at="2024-12-30T20:23:51 IST" name="createuser" finished-at="2024-12-30T20:24:01 IST" duration-ms="9542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="getuser()[pri:2, instance:tests.UserTest@78691363]" started-at="2024-12-30T20:24:01 IST" name="getuser" finished-at="2024-12-30T20:24:02 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuser -->
+        <test-method signature="updateuser()[pri:3, instance:tests.UserTest@78691363]" started-at="2024-12-30T20:24:02 IST" name="updateuser" finished-at="2024-12-30T20:24:03 IST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuser -->
+        <test-method signature="deleteuser()[pri:4, instance:tests.UserTest@78691363]" started-at="2024-12-30T20:24:03 IST" name="deleteuser" finished-at="2024-12-30T20:24:05 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- tests.UserTest -->
+      <class name="tests.UserTest_FromExcel">
+        <test-method signature="createuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:08 IST" name="createuser" data-provider="Data" finished-at="2024-12-30T20:24:09 IST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[griffinsray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[griffins]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ray]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[griffinsray@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gray]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9859485426]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="createuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:09 IST" name="createuser" data-provider="Data" finished-at="2024-12-30T20:24:10 IST" duration-ms="1220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alsalvador]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lvador]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alsa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[alsalvador@yahoo.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[aalsa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9847565215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="createuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:10 IST" name="createuser" data-provider="Data" finished-at="2024-12-30T20:24:11 IST" duration-ms="1190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kalbalimu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[balimu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kalbalimu@x.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bkal]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8749565784]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="createuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:11 IST" name="createuser" data-provider="Data" finished-at="2024-12-30T20:24:13 IST" duration-ms="1201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[treadstray]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tread]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[stray]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[treadstray@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[tstray]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7598412456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="deleteuser(java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:13 IST" name="deleteuser" data-provider="UserNames" finished-at="2024-12-30T20:24:14 IST" duration-ms="1229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[griffinsray]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="deleteuser(java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:14 IST" name="deleteuser" data-provider="UserNames" finished-at="2024-12-30T20:24:15 IST" duration-ms="1161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alsalvador]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="deleteuser(java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:15 IST" name="deleteuser" data-provider="UserNames" finished-at="2024-12-30T20:24:16 IST" duration-ms="1245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalbalimu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="deleteuser(java.lang.String)[pri:2, instance:tests.UserTest_FromExcel@639c2c1d]" started-at="2024-12-30T20:24:16 IST" name="deleteuser" data-provider="UserNames" finished-at="2024-12-30T20:24:18 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[treadstray]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- tests.UserTest_FromExcel -->
+    </test> <!-- API Automation Test -->
+  </suite> <!-- PetStore Suite -->
 </testng-results>
