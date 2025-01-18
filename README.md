@@ -1,4 +1,4 @@
-Framework Structure:
+Framework Structure
 ![image](https://github.com/user-attachments/assets/b42a13ef-dcb8-49fb-8692-e6fcc0b8afab)
 
 Test Run
